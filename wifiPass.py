@@ -6,10 +6,10 @@ from fpdf import FPDF
 if __name__ == "__main__":
     file_format = ["PNG", "PDF", "BOTH"]
     parser = argparse.ArgumentParser()
-    parser.add_argument('--ssid', required=True)
-    parser.add_argument('--pw', required=True)
+    parser.add_argument('--ssid', required=True, help="network name")
+    parser.add_argument('--pw', required=True, help="network password")
     parser.add_argument('--format', required=True, choices=file_format)
-    parser.add_argument('--out', required=False)
+    parser.add_argument('--out', required=False, help="basename for the outputfile(s)")
     args = parser.parse_args()
 
 

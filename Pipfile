@@ -12,3 +12,6 @@ pillow = "*"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+wifiPass = "python wifiPass.py"
