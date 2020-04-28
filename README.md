@@ -2,16 +2,16 @@
 A tool to create QR codes to share your wifi credentials.
 
 # Prerequisites
-You need to have `python3` and `pipenv` installed.
+You need to have `python3` and `pip` installed.
 
 # Installing
 ```
-pipenv sync
+pip install wifiPass-propellerpain
 ```
 
 # Running
 ```
-usage: wifiPass.py [-h] --ssid SSID --pw PW --format {PNG,PDF,BOTH}
+usage: python -m wifiPass [-h] --ssid SSID --pw PW --format {PNG,PDF,BOTH}
                    [--out OUT]
 
 optional arguments:
@@ -23,5 +23,5 @@ optional arguments:
   ```
   For example to generate a pdf version:
   ```
-  pipenv run wifiPass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --format PDF
+  python -m wifiPass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --format PDF
   ```
