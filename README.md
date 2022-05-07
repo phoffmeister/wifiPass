@@ -1,4 +1,4 @@
-# wifiPass
+# wifipass
 A tool to create QR codes to share your wifi credentials.
 
 # Prerequisites
