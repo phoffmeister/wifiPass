@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "wifipass"
-version = "0.0.2"
+version = "0.0.3"
 description = "Creates a PDF with a QR code of your wifi password."
 authors = ["Pierre <pierre.git@posteo.de>"]
+repository = "https://github.com/phoffmeister/wifiPass"
+homepage = "https://github.com/phoffmeister/wifiPass"
 license = "MIT"
 readme = "README.md"
 keywords = ["wifi", "QR", "password"]

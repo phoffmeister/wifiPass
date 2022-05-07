@@ -6,12 +6,12 @@ You need to have `python3` and `pip` installed.
 
 # Installing
 ```
-pip install wifiPass-propellerpain
+pip install wifipass
 ```
 
 # Running
 ```
-usage: python -m wifiPass [-h] --ssid SSID --pw PW --format {PNG,PDF,BOTH}
+usage: python -m wifipass [-h] --ssid SSID --pw PW --format {PNG,PDF,BOTH}
                    [--out OUT]
 
 optional arguments:
@@ -23,5 +23,5 @@ optional arguments:
   ```
   For example to generate a pdf version:
   ```
-  python -m wifiPass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --format PDF
+  python -m wifipass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --format PDF
   ```
