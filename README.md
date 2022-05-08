@@ -11,7 +11,7 @@ pip install wifipass
 
 # Running
 ```
-usage: python -m wifipass [-h] --ssid SSID --pw PW [--out OUT]
+usage: python -m wifipass [-h] [--ssid SSID] [--pw PW] [--out OUT]
 
 optional arguments:
   -h, --help            show this help message and exit
