@@ -11,17 +11,15 @@ pip install wifipass
 
 # Running
 ```
-usage: python -m wifipass [-h] --ssid SSID --pw PW --format {PNG,PDF,BOTH}
-                   [--out OUT]
+usage: python -m wifipass [-h] --ssid SSID --pw PW [--out OUT]
 
 optional arguments:
   -h, --help            show this help message and exit
   --ssid SSID           network name
   --pw PW               network password
-  --format {PNG,PDF,BOTH}
-  --out OUT             basename for the outputfile(s)
+  --out OUT             output filename
   ```
   For example to generate a pdf version:
   ```
-  python -m wifipass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --format PDF
+  python -m wifipass --ssid YOUR_SSID_HERE --pw YOUR_PW_HERE --out qr.pdf
   ```
