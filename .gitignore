@@ -2,3 +2,4 @@ build/
 dist/
 *.egg-info/
 token.txt
+__pycache__
